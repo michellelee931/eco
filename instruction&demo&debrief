@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+    <div class ="block">
+        <div id="content">
+            <h1>Welcome!</h1> 
+            <p>
+             "You are invited to take part in a research study on predict the value of one mutual fund across several trials. In the following, we will describe the instructions including your rights and data collection rules of our experiments. " ==$0
+             <i>
+                 "This study has been reviewed and approved by the Department of Psychology Research Ethics Committee at the University of Warwick." ==$0
+             </i>
+            </p>
+            <p>please take the time to read the following information carefully.</p>
+        </div>
+        <h3>Study Information</h3>
+        <div class="briefing"> 
+            <h4>What will happen?</h4>
+            <p>
+                "You will first try to guess the value of AAA for the initial 20 points with feedback and then predict an additional 20 points without feedback. The task will take about 15-20mins."
+            </p>
+            <h4>What are your rights?</h4>
+            <p>
+                "Your participation is completely voluntary. You can withdraw at any time, and for any reason, simply by closing your browser. You have the right to omit or refuse to answer the demographic questions. However, we are only able to pay you if you complete the survey. "
+            </p>
+            <h4>What data do we collect?</h4>
+            <p>
+                "No identifiable data will be collected from you as part of this study. This means that once your responses have been submitted to the research team, it will not be possible to withdraw this data as your individual responses cannot be identified. We only will record the predictions you submit and demographic information. "
+            </p>
+            <h4>What happen to your data?</h4>
+            <p>
+                "Data will be securely stored on University of Warwick computers and will be processed only for the purpose of scientific analysis.  Access to the data will be restricted to the investigator of research team: Adam Sanborn, Nick Chater, Jake Spicer, Pablo Leon-Villagra, LIN LI. "
+            </p>
+            <p> 
+                "Further information can be found in the " <a href="https://warwick.ac.uk/services/idc/dataprotection/privacynotices/researchprivacynotice ">University's Privacy notice for research</a>
+                ", or by contacting the Information and Data Compliance Team at "<a href="mailto:GDPR@warwick.ac.uk">.</a>
+            </p>
+            <p>
+                "If you require further information, please contact <a href="lin.li.1@warwick.ac.uk">LIN LI</a>
+                "." 
+            </p>
+            <h4>Who should I contact if I wish to make a complaint? </h4> 
+            <p>
+                "Any complaint should be addressed to the person below, who is a senior University of Warwick official entirely independent of this study:
+                <a href="DPO@warwick.ac.uk"></a>
+                "."
+            </p>
+            <div> 
+                <img src="" width="1" style="visibility:hidden;">
+            </div>
+        </div>
+        <h4>By continuing you agree to following: </h4>
+            <ul>
+                <li>
+                    ::marker
+                    "You have read the above information " ==$0
+                </li>
+                <li>
+                    ::marker
+                    "You consent to participate in the experiment " ==$0
+                </li>
+                <li>
+                    ::marker
+                    "You are at least 18 years old " ==$0
+                </li>
+                <li>
+                    ::marker
+                    "You understand and agree to the storage, processing and publication of data as described above." ==$0 
+                </li> 
+            </ul>
+            <div class="row">
+                <button style="float: right">I agree to participate in this study</button>
+                :: after
+            </div>
+            <div style="font-size: 0.75em;">If you do not wish to participate please close this window and return HIT.</div>
+    </div>     
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="block">
+            <div id ="content">
+                <h1>Welcome!</h1>
+                <p>
+                    "This experiment aims to understand how people make predictions about the value of mutual fund across several trials. Please complete the experiment in one sitting without break. "
+                </p>
+            </div>
+            <div class="row">
+                <button style="float:right";>Next</button>
+                :: after
+            </div>
+            <div style="height: 10px;"></div> 
+            <div class="row">
+                <span style="float: left; font-size: 1.25em; vertical-align: middle ;"></span>
+                <span style="float: right; font-size: 1.25em; ">Instruction:1/3</span>
+                :: after
+            </div>
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="block"> 
+            <div class="content">
+                <p>
+                    "In your prediction task, you will predict "<b>one mutual fund for 40 times points</b>". 
+                    For the first 20 points, you will receive feedback about the accuracy of your prediction. 
+                    "<b>For the rest of 20 points, you will not receive any feedback</b>" for your predictions. "
+                </p>
+                <p></p> ==$0
+                <p>
+                    "Below is an example of how the prices will display and how you submit your predictions. "
+                </p>
+            </div>
+            <div>
+               <img src="" width="300" style="display:block ; margin-left:auto; margin-right: auto;"> ==$0
+            </div>
+            <div style class="row">
+                <button style="float:right";>Next</button>
+                ::after
+            </div>
+            <div style="height: 10px;"></div> 
+            <div class="row">
+                <span style="float: left; font-size: 1.25em; vertical-align: middle ;"></span> 
+                <span style="float: right; font-size: 1.25em; ">Instruction:2/3</span>
+                :: after
+            </div>
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="block"> 
+            <div id="content">
+               <p>
+                   "To check whether you understand the experiment or not, please answer several questions. "
+               </p> 
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <label for "drop">
+                        <div id="content">
+                            <p>How many points will you predict?</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-25">
+                    <select id="drop" class="col-75">
+                        <option label></option>
+                        <option label="30">30</option>
+                        <option label="35">35</option>
+                        <option label="40">40</option>
+                        <option label="45">45</option>
+                    </select>
+                    <div class="col-75" style="font-size:0.75em; color:firebrick;"></div>
+                </div> 
+                :: after
+            </div>
+            <div style class="row">
+                <div class="col-75">
+                    <label for="drop">
+                        <div id="content">
+                            <p>Will you receive feedback for all your predictions? </p>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-25">
+                    <select id="drop" class="col-75">
+                        <option label></option>
+                        <option label="Yes">Yes</option>
+                        <option label="No">No</option>
+                    </select>
+                    <div class="col-75" style="font-size: 0.75em; color:firebrick"></div>
+                </div>
+                :: after
+            </div>
+            <div style class="row">
+                <div class="col-75">
+                    <label for="drop">
+                        <div id="content">
+                            <p>Imagine that you bought a lottery and finally won $5000. Where are you going for a vacation?</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-25">
+                    <p></p>
+                    <div class="col-75" style="font-size: 0.75em; color:firebrick"></div>
+                </div>
+                :: after
+            </div>
+            <div style class="row">
+                <div style class="row">
+                    <div class="col-75">
+                        <label for="drop">
+                            <div id="content">
+                                <p>Why did you choose this place? </p>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="col-25">
+                        <p></p>
+                        <div class="col-75" style="font-size: 0.75em; color:firebrick"></div>
+                    </div>
+                    :: after
+              </div>
+            </div>
+            <div style class= "row">
+                <button style="float:right;">Submit</button>
+                :: after
+            </div>
+        </div>
+       
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="block">
+            <div id="content">
+                <p>Well done! You have understood the rules, and you can start the experiment now.</p>
+            </div>
+            <div class="row" style>
+                <button style="float: right;">Next</button>
+                :: after
+            </div>
+            <div style="height: 10px"></div>
+            <div style class="row">
+                <span style="float: left; font-size: 1.25em; vertical-align: middle ;"></span> 
+                <span style="float: right; font-size: 1.25em; ">Instruction:3/3</span>
+            </div>
+        </div>
+    </body>
+</html>
+
+---demographic information--
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="block" style>
+           <div id="content">
+               <h1>Well done!</h1>
+               <p>You are nearly done. To finish this experiment please fill in this survey.</p>
+           </div> 
+           <div style class="row">
+               <div class="col-75">
+                   <label for="drop">
+                       <div id="content">
+                           <p>What is your gender?</p>
+                       </div>
+                   </label>
+               </div>
+               <div class="col-25">
+                   <select id="drop" class="col-75">
+                       <option label></option>
+                       <option label="Male">Male</option>
+                       <option label="Female">Female</option>
+                       <option label="Other">Other</option>
+                       <option label="Prefer not to say">Prefer not to say</option>
+                   </select>
+                   <div class="col-75" style="font-size:0.75em; color:firebrick"></div>
+               </div>
+               :: after
+           </div>
+           <div style class="row">
+               <div class="col-75">
+                   <label for="drop">
+                       <div id="content">
+                           <p>What is your age?</p>
+                       </div>
+                   </label>                  
+               </div>
+               <div class="col-25">
+                   <select id="drop" class="col-75">
+                       <option label></option>
+                       <option label="18-25">18-25</option>
+                       <option label="25-30">25-30</option>
+                       <option label="30-35">30-35</option>
+                       <option label="35-40">34-40</option>
+                       <option label="40-45">40-45</option>
+                       <option label="45-50">45-50</option>
+                       <option label="50-55">50-55</option>
+                       <option label="55-60">55-60</option>
+                       <option label="60-65">60-65</option>
+                       <option label="65-70">65-70</option>
+                       <option label="70-75">70-75</option>
+                       <option label="75-80">75-80</option>
+                       <option label=">80">>80</option>
+                       <option label="Prefer not to say">Prefer not to say</option>
+                   </select>
+                   <div class="col-75" style="font-size: 0.75em;color: firebrick;"></div>
+               </div>
+               :: after
+           </div>
+           <div style class="row">
+               <div class="col-75">
+                   <label for="drop">
+                       <div id="content">
+                           <p>Have you ever participated in any economic-related courses? </p>
+                       </div>
+                   </label>
+               </div>
+               <div class="col-25">
+                   <select id="drop" class="col-75">
+                       <option label></option>
+                       <option label="Yes">Yes</option>
+                       <option label="No">No</option>
+                       <option label="Prefer not to say">Prefer not to say</option>
+                   </select>
+                   <div class="col-75" style="font-size: 0.75em;color: firebrick;"></div>
+               </div>
+               :: after
+           </div>
+           <div style class="row">
+              <div class="col-75">
+                  <label for ="drop">
+                      <div id="content">
+                          <p>4)	What do you think the performance of mutual fund  you just predicted? (open-end questions)</p>
+                      </div>
+                  </label>
+              </div> 
+              <div class="col-25">
+                  <p></p>
+                  <div class="col-75" style="font-size: 0.75em; color: firebrick;"></div>
+              </div>
+              :: after
+           </div>
+           <div class="row">
+               <button style="float:right;">Submit</button>
+               :: after
+           </div>
+        </div>
+    </body>
+</html>
+
+---debrief form--
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="block" style>
+            <div id="content">
+                <h4>Thank you for your participation in this experiment.</h4>
+                <p>
+                    "Now your participation is completed. We will review some key points of experiment in the following. Our task aims to detect the kindss of individual beliefs in various macroeconomic and mutual fund patterns. "
+                </p>
+                <p>
+                    "During the experiment, after learning macroeconomic-related and fund-specific information, you tried to guess the value of one mutual fund for 20 points with feedback and then predicted an additional 20 points without feedback. The data you saw may have come from another participant and your prediction may be used as training for a future participant. We will see how expectations evolve as they are passed down and test whether predictions differ depending on the provided information."
+                </p>
+                <p>
+                    "Your participation is greatly appreciated by the researchers and the data collected could help better our understanding of various financial market patterns. If you require further information, please contact : lin.li.1@warwick.ac.uk. Thank you! "
+                </p>
+            </div>
+            <div style class="row">
+                <button style="float:right;">Next</button>
+                :: after
+            </div>
+            <div style="height:10px;"></div>
+        </div>
+    </body>
+</html>
+
+----end page--
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="block" style>
+            <h1>Thank you!</h1>
+            <p>
+                "Your data was sent! Once you have copied your password you can close this window."
+            </p>
+        </div>
+    </body>
+</html>
