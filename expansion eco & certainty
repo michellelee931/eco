@@ -1,0 +1,84 @@
+<body>
+         <p>
+             "Now suppose you are a mutual fund investor, you predict the value of one mutual fund, namely AAA based on underlying macroeconomic and fund information.  "
+        </p>
+        <h4>Economic information</h4>
+        <p> "<b>Economy is expanding</b>"</p>      
+         <ul>
+             <li>
+                 :: marker 
+                 "Unemployment rate is decreasing"
+            </li>
+            <li>
+                ::marker
+                "GDP is increasing"
+            </li>
+            <li>
+                ::marker
+                "Economists expect the global economy to expand at fast rate"
+             </li>
+        </ul>
+        <h4>fund information</h4>
+        <p>"<b>the fund is certainty</b>"</p>
+        <ul>
+            <li>
+            :: marker
+            Fund characteristic: fund size is small
+            </li>
+            <li>
+            :: marker 
+            Fund manager: An experienced fund manager managed the porfolio of this fund
+            </li>
+            <li>
+            :: marker
+            Expert advice: "<b>nine out of ten analysts from Morningstar</b>"
+                    , one of prestigious rating agency rated this fund as hold based on
+                    its past performance
+            </li>
+        </ul>
+    
+</body>
+
+<!DOCTYPE html>
+--
+<html>
+    <body>
+        <p>
+            "Now suppose you are a mutual fund investor, you predict the value of one mutual fund, namely AAA based on underlying macroeconomic and fund information.  "
+        </p>
+        <h4>Economic information</h4>
+        <p> "<b>Economy is contracting</b>"</p>
+                    
+        <ul>
+            <li>
+                :: marker 
+                "Unemployment rate is increasing"
+            </li>
+            <li>
+                ::marker
+                "GDP is decreasing"
+            </li>
+            <li>
+                ::marker
+                "Economists expect the global economy to decline at fast rate"
+            </li>
+        </ul>
+                        
+        <h4>fund information</h4>
+            <p>"<b>the fund is certainty</b>"</p>
+            <ul>
+                <li>
+                    :: marker
+                    Fund characteristic: fund size is small
+                </li>
+                <li>
+                    :: marker 
+                    Fund manager: An experienced fund manager managed the porfolio of this fund
+                </li>
+                <li>
+                    :: marker
+                    Expert advice: "<b>nine out of ten analysts from Morningstar</b>"
+                        , one of prestigious rating agency rated this fund as hold based on
+                        its past performance
+                </li>
+            </ul>
